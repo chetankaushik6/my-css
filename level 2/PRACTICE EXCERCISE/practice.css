@@ -1,0 +1,14 @@
+#bar{
+   background-color: black;
+  color: rgba(41, 38, 20,0.6);
+  font-size: 23px;
+  opacity: 0.4; 
+}
+
+main{
+  height: 190px;
+  width: 100%;
+  background-image: url(1.jpg);
+  background-size: contain;
+  background-position: 0%;
+}

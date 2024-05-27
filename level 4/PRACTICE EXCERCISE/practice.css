@@ -1,0 +1,16 @@
+#box{
+  background-color: blueviolet;
+  height: 200px;
+  width: 200px;
+}
+
+
+#btn{
+  height: 70px;
+  width: 70px;
+  padding:10px 15px;
+  margin: 100px;
+  border: 2px dotted black;
+  background-color: red;
+  border-radius: 50px;
+}

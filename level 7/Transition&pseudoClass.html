@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transition & pseudo classes</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+     .pseudo{
+      height: 25px;
+      width: 150px;
+       background-color: forestgreen;
+       border: 2px solid black;
+       border-radius: 10px;
+
+       transition-property: all;
+       transition-duration: 2s;
+       /* transition-timing-function: ease-in-out; */
+       transition-timing-function: steps(3);
+       transition-delay: 1s;
+     }
+
+     .pseudo:hover{
+      height: 30px;
+      width: 160px;
+      background-color: red;
+     }
+
+     
+     .pseudo:active{
+      height: 30px;
+      width: 160px;
+      background-color:yellow;
+     }
+  </style>
+</head>
+<body>
+    <button class="pseudo">Learning pseudo</button>
+</body>
+</html>

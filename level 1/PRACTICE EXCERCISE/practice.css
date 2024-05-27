@@ -1,0 +1,23 @@
+#head{
+     font-size: 25px;
+     font-weight: 900;
+}
+
+p{
+   color: brown;
+}
+
+.para{
+    font-weight: 600;
+}
+
+#first,#second{
+  color: yellowgreen;
+  background-color: blue;
+  font-size: 27px;
+}
+/* 
+#second{
+  color: bisque;
+  background-color: black;
+} */

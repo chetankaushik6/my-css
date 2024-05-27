@@ -1,0 +1,20 @@
+*{
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  background-color: blueviolet;
+}
+
+#heading{
+  color:white;
+  /* font-size: 34px; */
+}
+.para{
+  color: yellowgreen;
+  font-size: 30px;
+}
+
+
+h1,p {
+   border: 5px solid burlywood;
+}
